@@ -420,13 +420,23 @@
     border: 1px solid #ffffff0d;
 }
 
-.foot-bar-div .foot-bar-inner .foot-bar-special
+.foot-background-img
 {
+    width: 100%;
+    height: 80%;
     background-image: url(../images/contact-details-map.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 1;
+    opacity: 0.2;
+    position: absolute;
+    z-index: auto;
+}
+
+.foot-bar-special
+{
+    position: relative;
+    z-index: 10;
 }
 
 .foot-inner-row
